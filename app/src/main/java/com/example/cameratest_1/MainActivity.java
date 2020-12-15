@@ -118,6 +118,8 @@ public class MainActivity extends AppCompatActivity {
                     openAlbum();
                 }else{
                     Toast.makeText(this,"you denied the permision",Toast.LENGTH_SHORT).show();
+
+                    System.currentTimeMillis();
                 }
                 break;
             default:
